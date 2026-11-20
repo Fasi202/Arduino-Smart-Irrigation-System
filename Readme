@@ -1,0 +1,59 @@
+Automatic Smart Irrigation System using Arduino Uno
+
+Project Description
+
+This project is an automatic irrigation system that monitors soil moisture and controls watering based on the moisture level.
+
+When the soil becomes dry, the system activates the water pump through a relay. When sufficient moisture is detected, the pump is switched OFF.
+
+Components Required
+
+- Arduino Uno
+- Soil Moisture Sensor
+- 5V Relay Module
+- Water Pump
+- Jumper Wires
+- Power Supply
+
+Pin Connections
+
+Component| Arduino Pin
+Soil Sensor AO| A0
+Relay IN| D3
+Sensor VCC| 5V
+Sensor GND| GND
+
+Working Principle
+
+1. The soil moisture sensor measures soil moisture.
+2. Arduino reads the analog value.
+3. Arduino compares the reading with a predefined threshold.
+4. If the soil is dry, the pump is activated.
+5. If the soil is sufficiently wet, the pump is switched OFF.
+
+Features
+
+- Automatic watering
+- Soil moisture monitoring
+- Low-cost implementation
+- Standalone operation
+- No internet connection required
+
+Applications
+
+- Home gardening
+- Small agricultural fields
+- Plant monitoring
+- Greenhouse irrigation
+
+Programming Language
+
+Arduino C++
+
+Controller
+
+Arduino Uno
+
+Author
+
+Fasiullah Khan
